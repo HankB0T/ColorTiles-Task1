@@ -1,0 +1,96 @@
+body {
+    height: 200%;
+    background-image: linear-gradient(yellow, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p.a {
+    font-size: large;
+  }
+
+  button {
+    background-color: grey;
+  }
+  
+  .grid3 {
+    display: grid;
+    grid-template-columns:50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    border: 1px black;
+  }
+  
+  .grid3 button {
+    border: 2px solid black;
+    outline: solid;
+    cursor: pointer;
+  }
+  
+  .grid3 button:hover {
+    filter: brightness(120%);
+  }
+
+  h2.b {
+    margin-top: 75px; 
+  }
+
+  .game {
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);;
+    padding: 15px;
+    background-color: limegreen;
+    border-radius: 5px;
+  }
+
+  .grid5 {
+    display: grid;
+    grid-template-columns:50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    border: 1px black;
+  }
+  
+  .grid5 button {
+    border: 2px solid black;
+    outline: solid;
+    cursor: pointer;
+  }
+  
+  .grid5 button:hover {
+    filter: brightness(120%);
+  }
+
+  .footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer button {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    width: 75px;
+    background-color: lightyellow;
+    color: darkgreen;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .footer button:hover {
+    color: lightyellow;
+    background-color: darkgreen;
+  }
+  
+  .footer span {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    color: lightyellow;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 5px;
+  }
